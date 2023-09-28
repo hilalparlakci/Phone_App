@@ -20,6 +20,7 @@
 		22648CC72ABB474C00364483 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CC62ABB474C00364483 /* PersonViewModel.swift */; };
 		228A9CA32AC564530099021C /* EachPersonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A9CA22AC564530099021C /* EachPersonDetailsView.swift */; };
 		228A9CA52AC566FE0099021C /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A9CA42AC566FE0099021C /* UserDetailsView.swift */; };
+		228A9CA72AC591850099021C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A9CA62AC591840099021C /* MainView.swift */; };
 		22B7C7A62AC458AE00D819FC /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7C7A52AC458AE00D819FC /* HeaderModel.swift */; };
 		22EBC3672AC20DB1007549E4 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBC3662AC20DB1007549E4 /* PersonModel.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		22648CC62ABB474C00364483 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 		228A9CA22AC564530099021C /* EachPersonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachPersonDetailsView.swift; sourceTree = "<group>"; };
 		228A9CA42AC566FE0099021C /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		228A9CA62AC591840099021C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		22B7C7A52AC458AE00D819FC /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		22EBC3662AC20DB1007549E4 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 		22648CB12ABB376B00364483 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				228A9CA62AC591840099021C /* MainView.swift */,
 				22648CB62ABB3AAC00364483 /* ContactsView.swift */,
 				22648CB82ABB3ABC00364483 /* RecentsView.swift */,
 				228A9CA22AC564530099021C /* EachPersonDetailsView.swift */,
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22648CBB2ABB3ACB00364483 /* FavoritesView.swift in Sources */,
+				228A9CA72AC591850099021C /* MainView.swift in Sources */,
 				22EBC3672AC20DB1007549E4 /* PersonModel.swift in Sources */,
 				22648CC52ABB3DF900364483 /* AddView.swift in Sources */,
 				22648CC72ABB474C00364483 /* PersonViewModel.swift in Sources */,

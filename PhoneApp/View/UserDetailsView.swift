@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct UserDetailsView: View {
+    public let user: PersonModel = PersonModel(surname: "Ali", name: "Adams", mobile: "567 097 56 32", whatsapp: "567 097 56 32", notes: "Love of my life")
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

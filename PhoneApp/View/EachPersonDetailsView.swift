@@ -20,6 +20,6 @@ struct EachPersonDetailsView: View {
 
 struct EachPersonDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        EachPersonDetailsView(eachpersondetail: PersonModel(surname: "S", name: "Be", mobile: 1, whatsapp: 1, notes: "Loveee"))
+        EachPersonDetailsView(eachpersondetail: PersonModel(surname: "S", name: "Be", mobile: "1", whatsapp: "1", notes: "Loveee"))
     }
 }

@@ -14,47 +14,42 @@ struct ContactsView: View {
 ]
     
     var body: some View {
-        NavigationView {
-            Section{
-                List(){
-                    NavigationLink(destination: UserDetailsView()) { UserProfileView() }
-                    ForEach(headers, id: \.self) { header in
-                        Section{
-                            ForEach(personViewModel.persons.filter { $0.getfullname().hasPrefix(String(header)) }, id: \.id) { person in
-                                
-                                NavigationLink(destination: EachPersonDetailsView(eachpersondetail: person)) { EachPersonView(PersonModel: person)
+            NavigationStack {
+                Section{
+                    List(){
+                        NavigationLink(destination: UserDetailsView()) { UserProfileView() }
+                        ForEach(headers, id: \.self) { header in
+                            Section{
+                                ForEach(personViewModel.persons.filter { $0.getfullname().hasPrefix(String(header)) },
+                                        id: \.id) { person in
                                     
+                                    NavigationLink(value: person) { EachPersonView(PersonModel: person)
+                                    }
                                 }
+                            }header: {
+                                Text(String(header))
                             }
-                        }header: {
-                            Text(String(header))
                         }
                     }
                 }
-            }
-            
-            .toolbar {
-                ToolbarItemGroup(placement: .navigationBarTrailing) {
-                Button{
-                    print("Save tapped")
-                    }label: {
-                        Label("SAVE", systemImage: "plus")
+                
+                .toolbar {
+                    ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        Button{
+                            print("Save tapped")
+                        }label: {
+                            Label("SAVE", systemImage: "plus")
                         }
                     }
                 }
-            .searchable(text: $personname, placement: .navigationBarDrawer(displayMode: .always))
-            .navigationTitle("Contacts")
-            .navigationBarTitleDisplayMode(.automatic)
-            .listStyle(.inset)
+                .searchable(text: $personname, placement: .navigationBarDrawer(displayMode: .always))
+                .navigationDestination(for: PersonModel.self) { person in
+                    EachPersonDetailsView(eachpersondetail: person)
+                }
+                .navigationTitle("Contacts")
+                .navigationBarTitleDisplayMode(.automatic)
+                .listStyle(.inset)
         }
-    }
-}
-
-
-
-struct ContactsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContactsView()
     }
 }
 
@@ -76,4 +71,12 @@ struct UserProfileView: View {
         }
     }
 }
+
+
+struct ContactsView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContactsView()
+    }
+}
+
 

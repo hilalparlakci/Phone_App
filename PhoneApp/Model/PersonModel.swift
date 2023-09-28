@@ -7,16 +7,16 @@
 
 import Foundation
 
-struct PersonModel: Identifiable, Codable {
+struct PersonModel: Identifiable, Codable, Hashable {
     let id: String
     let surname: String
     let name: String
     public let fullname: String
-    let mobile: Int
-    let whatsapp: Int
+    let mobile: String
+    let whatsapp: String
     let notes: String
     
-    init(id: String = UUID().uuidString, surname:String, name: String, mobile: Int, whatsapp: Int, notes: String) {
+    init(id: String = UUID().uuidString, surname:String, name: String, mobile: String, whatsapp: String, notes: String) {
         self.id = id
         self.surname = surname
         self.name = name
