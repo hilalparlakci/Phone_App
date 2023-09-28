@@ -14,6 +14,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Favorites", systemImage: "star.fill")
                 }
+            
             RecentsView()
                 .tabItem {
                 Label("Recents", systemImage: "clock.fill")
@@ -23,16 +24,16 @@ struct MainView: View {
                 .tabItem {
                     Label("Contacts", systemImage: "person.circle.fill")
                 }
+            
             KeypadView()
                 .tabItem {
                     Label("Keypad", systemImage: "circle.grid.3x3.fill")
                 }
+            
             VoicemailView()
                 .tabItem {
                     Label("VoiceMail", systemImage: "recordingtape")
                 }
-            
-            
         }
     }
 }

@@ -22,8 +22,8 @@ struct ContactsView: View {
                             Section{
                                 ForEach(personViewModel.persons.filter { $0.getfullname().hasPrefix(String(header)) },
                                         id: \.id) { person in
-                                    
-                                    NavigationLink(value: person) { EachPersonView(PersonModel: person)
+                                    NavigationLink(value: person) {
+                                        EachPersonView(PersonModel: person)
                                     }
                                 }
                             }header: {

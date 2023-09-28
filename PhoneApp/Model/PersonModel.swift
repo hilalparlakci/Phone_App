@@ -15,8 +15,9 @@ struct PersonModel: Identifiable, Codable, Hashable {
     let mobile: String
     let whatsapp: String
     let notes: String
+    var imagename: String = "Vesikalık"
     
-    init(id: String = UUID().uuidString, surname:String, name: String, mobile: String, whatsapp: String, notes: String) {
+    init(id: String = UUID().uuidString, surname:String, name: String, mobile: String, whatsapp: String, notes: String, imagename:String) {
         self.id = id
         self.surname = surname
         self.name = name
@@ -24,6 +25,7 @@ struct PersonModel: Identifiable, Codable, Hashable {
         self.mobile = mobile
         self.whatsapp = whatsapp
         self.notes = notes
+        self.imagename = imagename
     }
     
     public func getfullname() ->String {

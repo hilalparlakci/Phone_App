@@ -20,8 +20,10 @@ struct EachPersonView: View {
     }
 }
 
+
+
 struct EachPersonView_Previews: PreviewProvider {
     static var previews: some View {
-        EachPersonView(PersonModel: PersonModel(surname:"Parlakçı", name: "Beyza", mobile: "90", whatsapp: "90", notes: "I love you"))
+        EachPersonView(PersonModel: PersonModel(surname:"Parlakçı", name: "Beyza", mobile: "90", whatsapp: "90", notes: "I love you", imagename: "Vesikalık"))
     }
 }

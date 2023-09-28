@@ -8,10 +8,10 @@
 import Foundation
 
 class PersonViewModel: ObservableObject{
-    @Published var persons: [PersonModel] = [PersonModel(surname: "S", name: "Be", mobile: "1", whatsapp: "1", notes: "Love you!!"),
-                                            PersonModel(surname: "P", name: "Ab", mobile: "2", whatsapp: "2", notes: "Dont hate me!"),
-                                            PersonModel(surname: "P", name: "An", mobile: "3", whatsapp: "3", notes: "My love!!"),
-                                             PersonModel(surname: "P", name: "Aba", mobile: "3", whatsapp: "3", notes: "My love!!")
+    var persons: [PersonModel] = [PersonModel(surname: "Kasabalı", name: "Beyza", mobile: "1", whatsapp: "1", notes: "Love you!!", imagename: "Vesikalık"),
+                                            PersonModel(surname: "Polatçı", name: "Abi", mobile: "2", whatsapp: "2", notes: "Dont hate me!", imagename: "Vesikalık"),
+                                            PersonModel(surname: "Poğaçacı", name: "Anıl", mobile: "3", whatsapp: "3", notes: "My love!!", imagename: "Vesikalık"),
+                                             PersonModel(surname: "Yurdum", name: "Aba", mobile: "3", whatsapp: "3", notes: "My love!!", imagename: "Vesikalık")
     ]
     
     init(){

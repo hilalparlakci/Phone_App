@@ -11,15 +11,23 @@ struct EachPersonDetailsView: View {
     let eachpersondetail: PersonModel
     
     var body: some View {
-        HStack{
-            Text(eachpersondetail.name)
-            Text(eachpersondetail.surname)
+                    Image(eachpersondetail.imagename)
+                        .resizable()
+                        .frame(width: 70,height: 70)
+                        .clipShape(Circle())
+                    HStack{
+                        Text(eachpersondetail.name)
+                        Text(eachpersondetail.surname)
+                    }
+        
+            
         }
+        
     }
-}
 
 struct EachPersonDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        EachPersonDetailsView(eachpersondetail: PersonModel(surname: "S", name: "Be", mobile: "1", whatsapp: "1", notes: "Loveee"))
+        EachPersonDetailsView(eachpersondetail: PersonModel(surname: "Kasabalı", name: "Beyza", mobile: "457 786 99 87", whatsapp: "457 786 99 87", notes: "Loveee", imagename: "Vesikalık"))
     }
 }
+
