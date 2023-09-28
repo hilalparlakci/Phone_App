@@ -11,7 +11,9 @@ import SwiftUI
 struct PhoneAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                ContactsView()
+            }
         }
     }
 }

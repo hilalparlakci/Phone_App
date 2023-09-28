@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		22648CA42ABB36E500364483 /* PhoneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CA32ABB36E500364483 /* PhoneAppApp.swift */; };
-		22648CA62ABB36E500364483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CA52ABB36E500364483 /* ContentView.swift */; };
 		22648CA82ABB36E600364483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22648CA72ABB36E600364483 /* Assets.xcassets */; };
 		22648CAB2ABB36E600364483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22648CAA2ABB36E600364483 /* Preview Assets.xcassets */; };
+		22648CB72ABB3AAC00364483 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CB62ABB3AAC00364483 /* ContactsView.swift */; };
+		22648CB92ABB3ABC00364483 /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CB82ABB3ABC00364483 /* RecentsView.swift */; };
+		22648CBB2ABB3ACB00364483 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CBA2ABB3ACB00364483 /* FavoritesView.swift */; };
+		22648CBD2ABB3ADB00364483 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CBC2ABB3ADB00364483 /* KeypadView.swift */; };
+		22648CBF2ABB3AF900364483 /* VoicemailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CBE2ABB3AF900364483 /* VoicemailView.swift */; };
+		22648CC12ABB3B2800364483 /* EachPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CC02ABB3B2800364483 /* EachPersonView.swift */; };
+		22648CC52ABB3DF900364483 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CC42ABB3DF900364483 /* AddView.swift */; };
+		22648CC72ABB474C00364483 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22648CC62ABB474C00364483 /* PersonViewModel.swift */; };
+		228A9CA32AC564530099021C /* EachPersonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A9CA22AC564530099021C /* EachPersonDetailsView.swift */; };
+		228A9CA52AC566FE0099021C /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A9CA42AC566FE0099021C /* UserDetailsView.swift */; };
+		22B7C7A62AC458AE00D819FC /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7C7A52AC458AE00D819FC /* HeaderModel.swift */; };
+		22EBC3672AC20DB1007549E4 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EBC3662AC20DB1007549E4 /* PersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22648CA02ABB36E500364483 /* PhoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22648CA32ABB36E500364483 /* PhoneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAppApp.swift; sourceTree = "<group>"; };
-		22648CA52ABB36E500364483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22648CA72ABB36E600364483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22648CAA2ABB36E600364483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22648CB62ABB3AAC00364483 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		22648CB82ABB3ABC00364483 /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
+		22648CBA2ABB3ACB00364483 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		22648CBC2ABB3ADB00364483 /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		22648CBE2ABB3AF900364483 /* VoicemailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicemailView.swift; sourceTree = "<group>"; };
+		22648CC02ABB3B2800364483 /* EachPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachPersonView.swift; sourceTree = "<group>"; };
+		22648CC42ABB3DF900364483 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		22648CC62ABB474C00364483 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		228A9CA22AC564530099021C /* EachPersonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachPersonDetailsView.swift; sourceTree = "<group>"; };
+		228A9CA42AC566FE0099021C /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		22B7C7A52AC458AE00D819FC /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		22EBC3662AC20DB1007549E4 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				22648CA32ABB36E500364483 /* PhoneAppApp.swift */,
-				22648CA52ABB36E500364483 /* ContentView.swift */,
 				22648CA72ABB36E600364483 /* Assets.xcassets */,
+				22648CB12ABB376B00364483 /* View */,
+				22648CB32ABB377800364483 /* Model */,
+				22648CB22ABB377100364483 /* ViewModel */,
 				22648CA92ABB36E600364483 /* Preview Content */,
 			);
 			path = PhoneApp;
@@ -65,6 +89,39 @@
 				22648CAA2ABB36E600364483 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22648CB12ABB376B00364483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22648CB62ABB3AAC00364483 /* ContactsView.swift */,
+				22648CB82ABB3ABC00364483 /* RecentsView.swift */,
+				228A9CA22AC564530099021C /* EachPersonDetailsView.swift */,
+				22648CBA2ABB3ACB00364483 /* FavoritesView.swift */,
+				22648CBC2ABB3ADB00364483 /* KeypadView.swift */,
+				22648CBE2ABB3AF900364483 /* VoicemailView.swift */,
+				22648CC02ABB3B2800364483 /* EachPersonView.swift */,
+				22648CC42ABB3DF900364483 /* AddView.swift */,
+				228A9CA42AC566FE0099021C /* UserDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22648CB22ABB377100364483 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				22648CC62ABB474C00364483 /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		22648CB32ABB377800364483 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22EBC3662AC20DB1007549E4 /* PersonModel.swift */,
+				22B7C7A52AC458AE00D819FC /* HeaderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22648CA62ABB36E500364483 /* ContentView.swift in Sources */,
+				22648CBB2ABB3ACB00364483 /* FavoritesView.swift in Sources */,
+				22EBC3672AC20DB1007549E4 /* PersonModel.swift in Sources */,
+				22648CC52ABB3DF900364483 /* AddView.swift in Sources */,
+				22648CC72ABB474C00364483 /* PersonViewModel.swift in Sources */,
+				22648CB72ABB3AAC00364483 /* ContactsView.swift in Sources */,
+				22648CC12ABB3B2800364483 /* EachPersonView.swift in Sources */,
+				228A9CA32AC564530099021C /* EachPersonDetailsView.swift in Sources */,
+				22648CBD2ABB3ADB00364483 /* KeypadView.swift in Sources */,
+				228A9CA52AC566FE0099021C /* UserDetailsView.swift in Sources */,
 				22648CA42ABB36E500364483 /* PhoneAppApp.swift in Sources */,
+				22648CBF2ABB3AF900364483 /* VoicemailView.swift in Sources */,
+				22B7C7A62AC458AE00D819FC /* HeaderModel.swift in Sources */,
+				22648CB92ABB3ABC00364483 /* RecentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
