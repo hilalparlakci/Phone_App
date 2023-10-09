@@ -11,15 +11,19 @@ struct EachPersonDetailsView: View {
     let eachpersondetail: PersonModel
     
     var body: some View {
-                    Image(eachpersondetail.imagename)
-                        .resizable()
-                        .frame(width: 70,height: 70)
-                        .clipShape(Circle())
-                    HStack{
-                        Text(eachpersondetail.name)
-                        Text(eachpersondetail.surname)
-                    }
         
+        NavigationStack{
+            Image(eachpersondetail.imagename)
+                .resizable()
+                .frame(width: 70,height: 70)
+                .clipShape(Circle())
+                Text(eachpersondetail.name + " " + eachpersondetail.surname)
+            
+            List(){
+                
+            }
+           
+        }
             
         }
         

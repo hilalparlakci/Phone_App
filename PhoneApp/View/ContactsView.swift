@@ -11,7 +11,7 @@ struct ContactsView: View {
     @State var personname: String = ""
     @StateObject var personViewModel = PersonViewModel()
     let headers: [Character] = [ "A", "B", "C", "Ç", "D", "E", "F", "G", "Ğ", "H", "I", "İ", "J", "K", "L", "M", "N", "O", "Ö", "P", "R", "S", "Ş", "T", "U", "Ü", "V", "Y", "Z"
-]
+        ]
     
     var body: some View {
             NavigationStack {
